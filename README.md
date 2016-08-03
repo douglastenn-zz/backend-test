@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="http://www.catho.com.br">
+      <img src="http://static.catho.com.br/svg/site/logoCathoB2c.svg" alt="Catho"/>
+  </a>
+</p>
 # backend-test
 
 Uma pessoa esta a procura de emprego e dentre as várias vagas que existem no mercado (disponibilizadas nesse JSON) e ela quer encontrar vagas que estejam de acordo com o que ela saiba fazer, seja direto pelo cargo ou atribuições que podem ser encontradas na descrição das vagas. Para atender essa necessidade precisamos:
