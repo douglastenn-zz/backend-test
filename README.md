@@ -5,7 +5,7 @@
 </p>
 # backend-test
 
-Uma pessoa esta a procura de emprego e dentre as várias vagas que existem no mercado (disponibilizadas nesse JSON) e ela quer encontrar vagas que estejam de acordo com o que ela saiba fazer, seja direto pelo cargo ou atribuições que podem ser encontradas na descrição das vagas. Para atender essa necessidade precisamos:
+Uma pessoa esta a procura de emprego e dentre as várias vagas que existem no mercado (disponibilizadas nesse <a href="https://github.com/catho/backend-test/blob/master/vagas.json">JSON</a>) e ela quer encontrar vagas que estejam de acordo com o que ela saiba fazer, seja direto pelo cargo ou atribuições que podem ser encontradas na descrição das vagas. Para atender essa necessidade precisamos:
 
 - uma API simples p/ procurar vagas (um GET p/ procurar as vagas no .json disponibilizado);
 - deve ser possível procurar vagas por texto (no atributos title e description);
