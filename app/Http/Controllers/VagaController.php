@@ -113,9 +113,9 @@ class VagaController extends Controller
           // Ordenando assim entre alta, meio e baixa similaridade
           if ($percent >= 90) {
             array_push($highSimilarity, $vaga);
-          } elseif ($percent >= 70) {
+          } elseif ($percent >= 80) {
             array_push($middleSimilarity, $vaga);
-          } elseif ($percent >= 50) {
+          } elseif ($percent >= 70) {
             array_push($lowSimilarity, $vaga);
           }
 
