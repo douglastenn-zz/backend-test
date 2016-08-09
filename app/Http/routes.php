@@ -1,5 +1,11 @@
 <?php
 
+$app->get('/', function () use ($app) {
+    return view('welcome');
+});
+
+$app->get('/api/vaga', ["as" => "get_all_vagas", "uses" => "VagaController@findAll"]);
+
 // Rota GET para encontrar todas as vagas
 $app->get('/api/vaga', ["as" => "get_all_vagas", "uses" => "VagaController@findAll"]);
 
